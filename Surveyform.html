@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">To serve the best we need to ask the Bestss. What they love to eat...</p>
+    <form id="survey-form" method="post" action='https://survey-form'>
+        <label id="name-label">Enter your name: <input class="info" id="name" type="text" placeholder="John cena" required></label>
+        <label id="email-label">Enter your email: <input class="info" id="email" type="email" placeholder="johncena@gmail.com"
+                required></label>
+        <label id="number-label">Enter your age: <input class="info" id="number" type="number" min=10 max="80"
+                placeholder="20"></label>
+        <hr>
+        <label id="selection">Select your zone:
+            <select id="dropdown">
+                <option>North</option>
+                <option>South</option>
+                <option>East</option>
+                <option>Mid-West</option>
+            </select>
+            
+        </label>
+        <hr>
+
+        <label>Your daily food comes under which menu:<br>
+            <input class="rbtn1" type="radio" name="dmeal" value="Indian" checked>Indian<br>
+            <input class="rbtn1" type="radio" name="dmeal" value="International">Westen/International
+        </label>
+
+        <label>You preffer:<br>
+            <input class="rbtn1" type="radio" name="making" value="self" checked>Cook my own food<br>
+            <input class="rbtn1" type="radio" name="making" value="hvcook">Have cook<br>
+        </label>
+        <hr>
+        <label>I like to eat:<br>
+            <input  class="check1" type="checkbox" value="home"> Home made food <br>
+            <input class="check1"  type="checkbox" value="stall"> Food at stalls <br>
+            <input class="check1"  type="checkbox" value="restra"> Food at Restaurant <br>
+            <input class="check1"  type="checkbox" value="bhandara"> Food at Bhandaras <br>
+            <input class="check1"  type="checkbox" value="maa"> Maa ke hath ka Khana <br>
+        </label>
+        <label><textarea id="comment" placeholder="Tell us your best food experience" rows="5" cols="30"></textarea></label>
+        <hr>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
