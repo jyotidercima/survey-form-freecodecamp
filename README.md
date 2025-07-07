@@ -3,5 +3,6 @@ I have made a simple Survey Form to ask people what they like to eat and what ar
 
 
 here is how it looks 
-![image](https://github.com/user-attachments/assets/3523fff9-9b68-4d84-a73c-28c44463af41)
 
+
+![Uploading 127.0.0.1_3000_survey%20form_Surveyform.html.png…]()
